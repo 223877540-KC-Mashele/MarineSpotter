@@ -1,0 +1,87 @@
+/* Sidebar Container */
+.sidebar {
+  width: 270px; /* Static width */
+  background-color: #f2f4fa;
+  position: fixed;
+  height: 100%; /* Full height */
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Vertical alignment */
+  border-right: 1px solid #dfdfdf;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px;
+}
+
+.logo-img {
+  width: 60px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: -15px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Divider Line */
+.divider {
+  border: 0;
+  border-top: 2px solid #eee;
+  margin: 10px 0;
+}
+
+/* Menu Items */
+.menu-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin: 10px 0;
+}
+
+/* Sidebar Links */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.sidebar-link p {
+  margin: 0;
+}
+
+.sidebar-link:hover {
+  background-color: #e0e0e0;
+}
+
+.sidebar-link:active {
+  background-color: #1f53d5;
+  color: white;
+}
+
+.sidebar-icon {
+  font-size: 20px;
+}
+
+/* Settings Section */
+.settings-section {
+  margin-top: auto; /* Push settings to the bottom */
+  padding-top: 10px;
+}

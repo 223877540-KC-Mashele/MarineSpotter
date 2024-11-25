@@ -1,0 +1,103 @@
+/* SpeciesCard.css */
+.species-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 20px;
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.species-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.species-card h3 {
+  font-size: 1.6em;
+  margin: 12px 0;
+  color: #333;
+}
+
+.species-card p {
+  font-size: 1.1em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.species-card p.status {
+  font-weight: bold;
+  color: green;
+}
+
+.species-card:hover {
+  transform: scale(1.05);
+}
+
+.species-card p.category {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.like-button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.like-button:hover {
+  background-color: #0056b3;
+}
+
+.comment-form {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.comment-form button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comments-section {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.comments-section h4 {
+  margin-bottom: 5px;
+}
+
+.comments-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-section li {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
