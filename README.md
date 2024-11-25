@@ -1,10 +1,10 @@
-MarineSpotter
+# MarineSpotter
 MarineSpotter is a marine wildlife identification app designed to help users identify various marine species, raise awareness about their importance, and promote ocean conservation through interactive features and community engagement.
 
-Features:
+## Features:
 Marine Wildlife Identification:
 
-Users can explore and identify marine species through an intuitive interface.
+## Users can explore and identify marine species through an intuitive interface.
 Information includes species names, images, and facts about their habitat, behavior, and conservation status.
 User-Submitted Experiences:
 
